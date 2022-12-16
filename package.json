@@ -1,0 +1,22 @@
+{
+  "name": "whatdoesthefolksayapi",
+  "version": "1.0.0",
+  "description": "People's opinion based on the twitter data ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Seman Arda Yuvarlak",
+  "license": "ISC",
+  "dependencies": {
+    "apos-to-lex-form": "^1.0.5",
+    "axios": "^0.23.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "natural": "^5.1.1",
+    "nodemon": "^2.0.14",
+    "spelling-corrector": "^3.0.0",
+    "stopword": "^1.0.11",
+    "twit": "^2.2.11"
+  }
+}
